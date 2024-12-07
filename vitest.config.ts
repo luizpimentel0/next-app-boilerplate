@@ -10,6 +10,7 @@ export default defineConfig({
       reporter: ['text', 'html'],
       include: ['src/**/*.ts(x)']
     },
+    setupFiles: ['./.vitest/setup.ts'],
     alias: {
       '@': '/src'
     }
