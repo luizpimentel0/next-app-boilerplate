@@ -1,7 +1,9 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`Main component > should render the heading 1`] = `
-<main>
+<main
+  class="_main_7a8146"
+>
   <h1>
     Oi
   </h1>
